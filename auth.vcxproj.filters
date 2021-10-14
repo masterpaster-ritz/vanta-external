@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="cheat\mapper\intel_driver.cpp" />
+    <ClCompile Include="cheat\mapper\kdmapper.cpp" />
+    <ClCompile Include="cheat\mapper\portable_executable.cpp" />
+    <ClCompile Include="cheat\mapper\service.cpp" />
+    <ClCompile Include="cheat\mapper\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d9cee197-056b-42cf-90d9-e2e20d8ad45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shit\xorstr.hpp" />
+    <ClInclude Include="cheat\comm.hpp" />
+    <ClInclude Include="cheat\utils.hpp" />
+    <ClInclude Include="cheat\ImGui\imconfig.h" />
+    <ClInclude Include="cheat\ImGui\imgui.h" />
+    <ClInclude Include="cheat\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="cheat\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="cheat\ImGui\imgui_internal.h" />
+    <ClInclude Include="cheat\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="cheat\ImGui\imstb_textedit.h" />
+    <ClInclude Include="cheat\ImGui\imstb_truetype.h" />
+    <ClInclude Include="cheat\mapper\intel_driver.hpp" />
+    <ClInclude Include="cheat\mapper\intel_driver_resource.hpp" />
+    <ClInclude Include="cheat\mapper\kdmapper.hpp" />
+    <ClInclude Include="cheat\mapper\nt.hpp" />
+    <ClInclude Include="cheat\mapper\portable_executable.hpp" />
+    <ClInclude Include="cheat\mapper\service.hpp" />
+    <ClInclude Include="cheat\mapper\utils.hpp" />
+    <ClInclude Include="cheat\driver.h" />
+    <ClInclude Include="shit\skCrypt.h" />
+  </ItemGroup>
+</Project>
